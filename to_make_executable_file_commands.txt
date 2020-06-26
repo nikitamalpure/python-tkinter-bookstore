@@ -1,0 +1,9 @@
+
+pyinstaller frontend.py    ->this command only gies cipher block encoded format of program
+OR 
+for the only one file use ->pyinstaller --onefile frontend.py
+OR
+for 1 window->i.e it will not close python shell at background when it executesscript
+pyinstaller --onefile --windowed frontend.py
+
+after creating executable file go to dist folder there u will find ur app running
